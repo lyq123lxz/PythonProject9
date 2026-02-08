@@ -1,17 +1,20 @@
-2025-12-14 19:49:11,487 - INFO - Slot machine started
-2025-12-14 19:49:11,993 - DEBUG - Displaying image: C:\Users\Administrator\AppData\Local\Temp\_MEI15562\data\6.jpg
-2025-12-14 19:49:12,487 - DEBUG - Displaying image: C:\Users\Administrator\AppData\Local\Temp\_MEI15562\data\4.jpg
-2025-12-14 19:49:12,984 - DEBUG - Displaying image: C:\Users\Administrator\AppData\Local\Temp\_MEI15562\data\1.jpg
-2025-12-14 19:49:13,483 - DEBUG - Displaying image: C:\Users\Administrator\AppData\Local\Temp\_MEI15562\data\4.jpg
-2025-12-14 19:49:13,981 - DEBUG - Displaying image: C:\Users\Administrator\AppData\Local\Temp\_MEI15562\data\7.jpg
-2025-12-14 19:49:14,493 - DEBUG - Displaying image: C:\Users\Administrator\AppData\Local\Temp\_MEI15562\data\8.jpg
-2025-12-14 19:49:14,979 - DEBUG - Displaying image: C:\Users\Administrator\AppData\Local\Temp\_MEI15562\data\8.jpg
-2025-12-14 19:49:15,493 - DEBUG - Displaying image: C:\Users\Administrator\AppData\Local\Temp\_MEI15562\data\1.jpg
-2025-12-14 19:49:15,983 - DEBUG - Displaying image: C:\Users\Administrator\AppData\Local\Temp\_MEI15562\data\1.jpg
-2025-12-14 19:49:16,486 - DEBUG - Displaying image: C:\Users\Administrator\AppData\Local\Temp\_MEI15562\data\7.jpg
-2025-12-14 19:49:16,984 - DEBUG - Displaying image: C:\Users\Administrator\AppData\Local\Temp\_MEI15562\data\5.jpg
-2025-12-14 19:49:17,374 - INFO - Lost. Last image was 5.jpg
-2025-12-14 19:49:20,198 - INFO - Slot machine started
-2025-12-14 19:49:20,775 - DEBUG - Displaying image: C:\Users\Administrator\AppData\Local\Temp\_MEI15562\data\3.jpg
-2025-12-14 19:49:21,200 - DEBUG - Displaying image: C:\Users\Administrator\AppData\Local\Temp\_MEI15562\data\4.jpg
-2025-12-14 19:49:21,624 - INFO - Lost. Last image was 4.jpg
+2026-02-08 14:34:24,019 - DEBUG - Main window initialized
+2026-02-08 14:34:25,653 - INFO - Slot machine started
+2026-02-08 14:34:26,152 - DEBUG - Displaying image: C:\Users\Administrator\AppData\Local\Temp\_MEI169642\data\4.jpg
+2026-02-08 14:34:26,707 - DEBUG - Displaying image: C:\Users\Administrator\AppData\Local\Temp\_MEI169642\data\3.jpg
+2026-02-08 14:34:27,150 - DEBUG - Displaying image: C:\Users\Administrator\AppData\Local\Temp\_MEI169642\data\8.jpg
+2026-02-08 14:34:27,650 - DEBUG - Displaying image: C:\Users\Administrator\AppData\Local\Temp\_MEI169642\data\1.jpg
+2026-02-08 14:34:28,150 - DEBUG - Displaying image: C:\Users\Administrator\AppData\Local\Temp\_MEI169642\data\2.jpg
+2026-02-08 14:34:28,650 - DEBUG - Displaying image: C:\Users\Administrator\AppData\Local\Temp\_MEI169642\data\12.jpg
+2026-02-08 14:34:30,734 - INFO - Slot machine stopped, result: 12
+2026-02-08 14:34:33,016 - DEBUG - Second window initialized
+2026-02-08 14:34:33,016 - DEBUG - buttonBox type: <class 'PyQt6.QtWidgets.QDialogButtonBox'>
+2026-02-08 14:34:33,016 - DEBUG - buttonBox buttons: [<PyQt6.QtWidgets.QPushButton object at 0x000002D394651A90>, <PyQt6.QtWidgets.QPushButton object at 0x000002D394651B30>]
+2026-02-08 14:34:33,028 - DEBUG - Second window shown
+2026-02-08 14:34:37,316 - DEBUG - OK button clicked
+2026-02-08 14:34:39,380 - DEBUG - Cancel button clicked
+2026-02-08 14:34:42,196 - DEBUG - OK button clicked
+2026-02-08 14:34:44,508 - DEBUG - OK button clicked
+2026-02-08 14:34:47,253 - DEBUG - Cancel button clicked
+2026-02-08 14:34:48,710 - DEBUG - Second window is closing
+2026-02-08 14:34:48,710 - DEBUG - Second window reference cleared
