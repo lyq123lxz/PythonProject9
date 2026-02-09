@@ -107,6 +107,7 @@
      <string>到其它界面</string>
     </property>
     <addaction name="actionw"/>
+    <addaction name="action"/>
    </widget>
    <addaction name="menu"/>
   </widget>
@@ -114,6 +115,11 @@
   <action name="actionw">
    <property name="text">
     <string>第一个界面</string>
+   </property>
+  </action>
+  <action name="action">
+   <property name="text">
+    <string>第三个界面</string>
    </property>
   </action>
  </widget>

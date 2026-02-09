@@ -47,7 +47,10 @@ class Ui_MainWindow2(object):
         MainWindow2.setStatusBar(self.statusbar)
         self.actionw = QtGui.QAction(parent=MainWindow2)
         self.actionw.setObjectName("actionw")
+        self.action = QtGui.QAction(parent=MainWindow2)
+        self.action.setObjectName("action")
         self.menu.addAction(self.actionw)
+        self.menu.addAction(self.action)
         self.menubar.addAction(self.menu.menuAction())
 
         self.retranslateUi(MainWindow2)
@@ -62,3 +65,4 @@ class Ui_MainWindow2(object):
         self.checkBox_4.setText(_translate("MainWindow2", "减法"))
         self.menu.setTitle(_translate("MainWindow2", "到其它界面"))
         self.actionw.setText(_translate("MainWindow2", "第一个界面"))
+        self.action.setText(_translate("MainWindow2", "第三个界面"))

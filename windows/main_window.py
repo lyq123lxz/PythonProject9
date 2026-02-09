@@ -5,6 +5,7 @@ from functions.slot_machine import SlotMachine
 from windows.window_manager import WindowManager
 from utils.logger import logger
 
+
 class MyMainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
@@ -15,18 +16,10 @@ class MyMainWindow(QMainWindow):
 
     def _connect_signals(self):
         # 计算器操作
-        self.ui.action.triggered.connect(lambda: Calculator.calculate(
-            self.ui.lineEdit, self.ui.lineEdit_2, self.ui.lineEdit_3, self.ui.label, '+'
-        ))
-        self.ui.action_2.triggered.connect(lambda: Calculator.calculate(
-            self.ui.lineEdit, self.ui.lineEdit_2, self.ui.lineEdit_3, self.ui.label, '-'
-        ))
-        self.ui.action_3.triggered.connect(lambda: Calculator.calculate(
-            self.ui.lineEdit, self.ui.lineEdit_2, self.ui.lineEdit_3, self.ui.label, '*'
-        ))
-        self.ui.action_4.triggered.connect(lambda: Calculator.calculate(
-            self.ui.lineEdit, self.ui.lineEdit_2, self.ui.lineEdit_3, self.ui.label, '/'
-        ))
+        self.ui.action.triggered.connect(lambda: self._safe_calculate('+'))
+        self.ui.action_2.triggered.connect(lambda: self._safe_calculate('-'))
+        self.ui.action_3.triggered.connect(lambda: self._safe_calculate('*'))
+        self.ui.action_4.triggered.connect(lambda: self._safe_calculate('/'))
 
         # 老虎机操作
         self.ui.pushButton.clicked.connect(
@@ -35,6 +28,19 @@ class MyMainWindow(QMainWindow):
         self.ui.pushButton_2.clicked.connect(
             lambda: self.slot_machine.stop(self.ui.lineEdit_4, self.ui.label_3)
         )
+
         # 第二窗口连接
         self.ui.action_5.triggered.connect(WindowManager.show_second_window)
+
+        # 第三窗口连接
+        self.ui.action_6.triggered.connect(WindowManager.show_s4_window)
+
         logger.debug("Main window initialized")
+
+    def _safe_calculate(self, operator):
+        try:
+            Calculator.calculate(
+                self.ui.lineEdit, self.ui.lineEdit_2, self.ui.lineEdit_3, self.ui.label, operator
+            )
+        except Exception as e:
+            logger.error(f"Error in calculator: {e}")

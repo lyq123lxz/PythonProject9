@@ -10,8 +10,8 @@ SLOT_MACHINE_MAX_IMAGE = 12
 
 # 中奖配置
 WINNING_IMAGES = {
-    3: {"name": "老虎", "prize": 100000},
-    9: {"name": "猴子", "prize": 50000}
+    3: {"name": "老虎", "prize": 10000000},
+    9: {"name": "猴子", "prize": 5000000}
 }
 
 # 资源路径
